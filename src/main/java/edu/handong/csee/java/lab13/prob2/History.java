@@ -1,6 +1,6 @@
 package edu.handong.csee.java.lab13.prob2; //package name
 
-public class History extends Book {  //History class inherits Book class 
+public class History extends Book {  //History class that inherits Book class 
 	private String Author;		//declare Author String
 	
 	public History(String name, String author) { //constructor of History 
