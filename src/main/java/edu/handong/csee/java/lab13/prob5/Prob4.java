@@ -3,7 +3,7 @@ import java.util.Scanner; 		//to use keyboard import java.util.Scanner;
 
 public class Prob4 {	//class prob4
 	public static boolean equals(int[][] m1, int[][] m2) {  //declare static boolean equals mehtod to compare the m1,m2 2-d array
-		int count = 0;		//declare int type variable
+		int count = 0;		//declare instance variable
 		if (m1.length != m2.length) // if the number of row is different, return false 
 			return false;		//by if statement condition return boolean value
 		for (int i = 0; i < m1.length; i++) 	// repetition of statement from 0 to the length of m1[i]
@@ -15,9 +15,9 @@ public class Prob4 {	//class prob4
 			}
 		}
 		if(count <= 3)			//if statement to return boolean value
-			return true;		//result 
+			return true;		//return 1
 		else				//if statement to return boolean value
-			return false;		//result
+			return false;		//return 0
 	}
 
 	public static void main(String[] args) {	//declare main method

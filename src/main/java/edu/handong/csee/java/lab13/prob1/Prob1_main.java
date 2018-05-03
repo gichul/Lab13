@@ -1,6 +1,6 @@
 package edu.handong.csee.java.lab13.prob1;//package name
 
-public class Prob1_main {  //main class 
+public class Prob1_main {  //declare main class 
 
 	public static void main(String[] args) {  //main method 
 		// TODO Auto-generated method stub
