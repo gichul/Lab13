@@ -8,9 +8,9 @@ public class Prob1_main {  //declare main class
 		SchoolFriend friend2=new SchoolFriend(); //declare class SchoolFriend instantiation and reference Variable friend2
 		ClassFriend	friend3=new ClassFriend(); //declare class ClassFriend instantiation and reference Variable friend3
 		
-		InstanceOf.WhatFriend(friend1); //call the WhatFriend static method to check the relationship corresponding to their instances.
-		InstanceOf.WhatFriend(friend2);//call the WhatFriend static method to check the relationship corresponding to their instances.
-		InstanceOf.WhatFriend(friend3);//call the WhatFriend static method to check the relationship corresponding to their instances.
+		InstanceOf.whatFriend(friend1); //call the whatFriend static method to check the relationship corresponding to their instances.
+		InstanceOf.whatFriend(friend2);//call the whatFriend static method to check the relationship corresponding to their instances.
+		InstanceOf.whatFriend(friend3);//call the whatFriend static method to check the relationship corresponding to their instances.
 	}
 
 }

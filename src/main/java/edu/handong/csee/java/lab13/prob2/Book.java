@@ -8,8 +8,8 @@ public class Book {  // declare class Book
 	String bookName;  //declare instance variable bookName
 	
 	
-	public Book(String Name){  //declare constructor Book
-		this.bookName=Name; 	//initiation of bookName 
+	public Book(String name){  //declare constructor Book
+		this.bookName=name; 	//initiation of bookName 
 		num++;				//to add 1. declare this statement when create objects 
 		id=num;			//from numb input the data into id
 		
